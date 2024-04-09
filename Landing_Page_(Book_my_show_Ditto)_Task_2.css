@@ -1,0 +1,138 @@
+/* Default CSS Starts Here */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 0 auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Default CSS Ends Here */
+.Main-header {
+    background-color: white;
+    padding: 12px 0;
+}
+
+.Main-header a {
+    color: #000;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-1 {
+    display: flex;
+    align-items: center;
+}
+
+.flex-2 {
+    display: flex;
+    align-items: center;
+}
+
+.flex-1 input {
+    border-radius: 10px;
+    padding: 11px 20px;
+    width: 400px;
+    position: relative;
+    margin-left: 29px;
+}
+.flex-1 img{
+    width: 120px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 23px;
+    left: 329px;
+    color: #00000075;
+}
+
+.flex-2 button {
+    background-color: rgb(248, 68, 100);
+    padding: 5px 18px;
+    border-radius: 5px;
+    color: #fff;
+    border: 0px solid;
+    margin: 0 18px;
+}
+.flex-2 .arrow-icon{
+    font-size: 14px;
+}
+.menu-icon{
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
+    /* Stroke : its used to give outline for text */
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-heading{
+    background-color: whitesmoke;
+}
+.section li a{
+    color:#000;
+    font-size: 14px;
+}
+.section ul{
+    display: flex;
+    padding-left: 0;
+    
+}
+.section li{
+    padding: 0 10px;
+}
+.image-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    
+}
+.main img{
+    border-radius: 88px;
+    width: 296px;
+    height: 439px;
+    padding: 63px;
+}
+h3{
+    margin: 20px 20px;
+    padding: 20px 45px;
+}
+p{
+    margin: 8px 60px;
+}
